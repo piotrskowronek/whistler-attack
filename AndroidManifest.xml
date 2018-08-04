@@ -1,0 +1,104 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.joymobile.whistlerattack"
+    android:versionCode="4"
+    android:versionName="1.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+ 	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+ 	<uses-permission android:name="android.permission.READ_CONTACTS" />
+ 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="com.android.vending.BILLING" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="com.joymobile.whistlerattack.WhistlerAttack" >
+        <activity
+            android:name="com.joymobile.whistlerattack.MainActivity"
+            android:label="@string/title_activity_main"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+    	<!--<receiver android:name=".DateChangeReceiver">
+    		<intent-filter>
+        		<action android:name="android.intent.action.TIME_SET" />
+        	</intent-filter>
+        </receiver>-->
+        
+
+        <activity android:name="com.scoreloop.client.android.ui.EntryScreenActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+		<activity android:name="com.scoreloop.client.android.ui.PostScoreOverlayActivity" android:theme="@style/sl_dialog"/>
+		<activity android:name="com.scoreloop.client.android.ui.ShowResultOverlayActivity" android:theme="@style/sl_dialog"/>
+		<activity android:name="com.scoreloop.client.android.ui.BuddiesScreenActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+		<activity android:name="com.scoreloop.client.android.ui.LeaderboardsScreenActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+		<activity android:name="com.scoreloop.client.android.ui.ChallengesScreenActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+		<activity android:name="com.scoreloop.client.android.ui.AchievementsScreenActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+		<activity android:name="com.scoreloop.client.android.ui.SocialMarketScreenActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+		<activity android:name="com.scoreloop.client.android.ui.ProfileScreenActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+		<activity android:name="com.scoreloop.client.android.ui.GameItemPaymentScreenActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+
+		<activity android:name="com.playhaven.src.publishersdk.content.PHContentView" android:theme="@android:style/Theme.Dialog" android:windowSoftInputMode="adjustResize"></activity>
+	    <!-- Defining the ScoreloopCore activities -->
+		 <activity android:name="com.scoreloop.client.android.core.ui.ProxyActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:configChanges="orientation|keyboard|keyboardHidden|screenSize|smallestScreenSize"/>
+		 <!-- Note: you may need to add more entries here for the payment methods you want to use. -->
+		 
+		 <!-- Defining the ScoreloopUI activities -->
+		
+		 <activity android:name="com.scoreloop.client.android.ui.component.achievement.AchievementHeaderActivity"/>
+ 		 <activity android:name="com.scoreloop.client.android.ui.component.achievement.AchievementListActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.market.MarketHeaderActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.market.MarketListActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.news.NewsHeaderActivity"/>
+ 		 <activity android:name="com.scoreloop.client.android.ui.component.news.NewsListActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.entry.EntryListActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.post.PostOverlayActivity" android:theme="@style/sl_dialog"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.score.ScoreHeaderActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.score.ScoreListActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.user.UserAddBuddyListActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.user.UserHeaderActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.user.UserDetailListActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.user.UserListActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.game.GameDetailHeaderActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.game.GameDetailListActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.game.GameListActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.profile.ProfileSettingsListActivity"/>
+		 <activity android:name="com.scoreloop.client.android.ui.component.profile.ProfileSettingsPictureListActivity"/>
+		 
+		 <activity android:name="com.scoreloop.client.android.ui.framework.ScreenActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+		 <activity android:name="com.scoreloop.client.android.ui.framework.TabsActivity"/>
+		 
+		 <!--  AdColony  -->
+		 <activity android:name="com.jirbo.adcolony.AdColonyOverlay"
+			android:configChanges="keyboardHidden|orientation"
+			android:theme=
+			"@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+		<activity android:name="com.jirbo.adcolony.AdColonyFullscreen"
+			android:configChanges="keyboardHidden|orientation"
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+		<activity android:name="com.jirbo.adcolony.AdColonyBrowser"
+			android:configChanges="keyboardHidden|orientation"
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+		
+		<!--  TapJoy  -->
+		<activity android:name="com.tapjoy.TJCOffersWebView" android:configChanges="keyboardHidden|orientation" />
+		<activity android:name="com.tapjoy.TapjoyFullScreenAdWebView" android:configChanges="keyboardHidden|orientation" />
+		<activity android:name="com.tapjoy.TapjoyDailyRewardAdWebView" android:configChanges="keyboardHidden|orientation" />
+		<activity android:name="com.tapjoy.TapjoyVideoView" android:configChanges="keyboardHidden|orientation" />
+	</application>
+</manifest>

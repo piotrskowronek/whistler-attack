@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="128px" height="128px" viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="18.0518" y1="13.9009" x2="103.0518" y2="108.9009">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#585858"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" d="M122.167,108.167c0,8.25-6.75,15-15,15H16.5c-8.25,0-15-6.75-15-15V17.5c0-8.25,6.75-15,15-15h90.667
+	c8.25,0,15,6.75,15,15V108.167z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="287.4346" y1="-82.2168" x2="231.6333" y2="-152.8985" gradientTransform="matrix(0.9979 0.0641 0.0641 -0.9979 -187.8977 -74.3629)">
+	<stop  offset="0" style="stop-color:#EE2F24"/>
+	<stop  offset="1" style="stop-color:#FFD92F"/>
+</linearGradient>
+<path fill="url(#SVGID_2_)" stroke="#9F4D23" stroke-miterlimit="10" d="M95.439,92.121c-13.287,13.406-42.511,26.908-46.427,21.912
+	c-4.611-5.885,11.833-27.75,11.833-27.75s-27.473,11.393-32.64,9.094c-5.427-2.412,6.897-31.696,6.897-31.696
+	S14.585,81.256,8.087,74.678c-3.319-3.361,6.505-31.642,21.809-45.353c22.187-19.88,51.989-24.893,70.088-7.553
+	C118.083,39.112,116.41,70.963,95.439,92.121z"/>
+<polyline opacity="0.57" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-miterlimit="10" points="30.791,51.465 63.528,59.649 74.688,91.643"/>
+<polyline opacity="0.57" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-miterlimit="10" points="43.696,38.816 76.434,47 87.593,78.994"/>
+<polyline opacity="0.57" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-miterlimit="10" points="56.088,26.168 88.825,34.353 99.984,66.346"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M122.167,107.167c0,8.25-6.75,15-15,15H16.5
+	c-8.25,0-15-6.75-15-15V16.5c0-8.25,6.75-15,15-15h90.667c8.25,0,15,6.75,15,15V107.167z"/>
+</svg>

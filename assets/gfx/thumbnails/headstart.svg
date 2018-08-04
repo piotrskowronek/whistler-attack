@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="250px" height="400px" viewBox="0 0 250 400" enable-background="new 0 0 250 400" xml:space="preserve">
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="147.416" y1="113.3662" x2="91.6146" y2="184.048" gradientTransform="matrix(0.9979 0.0641 -0.0641 0.9979 10.8146 10.5223)">
+		<stop  offset="0" style="stop-color:#FF1E00"/>
+		<stop  offset="1" style="stop-color:#FFD92E"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" stroke="#9F4A00" stroke-miterlimit="10" d="M152.439,199.121
+		c-13.286,13.407-42.511,26.909-46.427,21.912c-4.611-5.884,11.833-27.75,11.833-27.75s-27.473,11.393-32.64,9.094
+		c-5.427-2.412,6.897-31.696,6.897-31.696s-20.519,17.575-27.017,10.997c-3.319-3.361,6.505-31.642,21.809-45.353
+		c22.188-19.879,51.989-24.893,70.089-7.552S173.41,177.962,152.439,199.121z"/>
+	<polyline opacity="0.57" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-miterlimit="10" points="87.791,158.465 
+		120.528,166.649 131.688,198.643 	"/>
+	<polyline opacity="0.57" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-miterlimit="10" points="100.696,145.816 
+		133.434,154 144.593,185.994 	"/>
+	<polyline opacity="0.57" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-miterlimit="10" points="113.088,133.168 
+		145.825,141.353 156.985,173.345 	"/>
+</g>
+</svg>

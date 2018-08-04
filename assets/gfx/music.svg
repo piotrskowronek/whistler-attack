@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="56px" height="56px" viewBox="0 0 56 56" enable-background="new 0 0 56 56" xml:space="preserve">
+<defs>
+</defs>
+<radialGradient id="SVGID_1_" cx="-13.3174" cy="-380.9722" r="41.3832" gradientTransform="matrix(0.843 -0.5379 -0.5379 -0.843 -196.3293 -311.0226)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#72CDDD"/>
+	<stop  offset="0.5321" style="stop-color:#3CC5F3"/>
+	<stop  offset="1" style="stop-color:#4E93CF"/>
+</radialGradient>
+<circle fill="url(#SVGID_1_)" cx="28.005" cy="28.005" r="28.005"/>
+<polyline fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="16.88,38.516 16.88,13.505 40.277,13.505 
+	40.277,36.901 "/>
+<ellipse fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="14.104" cy="37.922" rx="5.599" ry="3.427"/>
+<ellipse fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="36.646" cy="38.358" rx="5.85" ry="3.687"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="17.687" y1="21.237" x2="40.075" y2="21.237"/>
+</svg>
